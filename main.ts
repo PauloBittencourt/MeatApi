@@ -1,17 +1,17 @@
 import {Server} from './server/server'
-
+import {usersRouter} from './users/users.router'
 
 const server = new Server()
-server.bootstrap().then(server=>{
-    console.log('Esta sendo executado na:', server.application.address())
+server.bootstrap([usersRouter]).then(server=>{
+    console.log('Server is Listening on:', server.application.address())
 }).catch(error=>{
-    console.log('Servidor falhou para iniciar')
+    console.log('Server failed to start')
     console.error(error)
     process.exit(1)
 })
 
 
 
-// Comandos para rodar no Console 
+// run on console
 // tsc -w
-// nodemon dist/main.ts
+// nodemon dist/main.js

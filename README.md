@@ -30,7 +30,7 @@ This project was developed using cutting edge back-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/PauloBittencourt/FinAPI.git && cd FinAPI
+$ git clone https://github.com/PauloBittencourt/MeatApi && cd MeatApi
 ```
 
 **Follow the steps below**

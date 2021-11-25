@@ -1,12 +1,12 @@
 
 
-## NodeRest
+## MeatAPI
 
 [![Author](https://img.shields.io/badge/author-PauloBittencourt-8257E5?style=flat-square)](https://github.com/paulobittencourt)
 
 
 <h4 align="center">
-  NodeRest is an API for car rental.
+  MeatAPI it's a restaurant api.
 </h4>
 
 
